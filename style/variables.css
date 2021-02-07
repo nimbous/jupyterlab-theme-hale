@@ -45,48 +45,48 @@ all of MD as it is not optimized for dense, information rich UIs.
 Custom colors
 */
 
-   --calm-mono: #abb2bf;
-   --calm-mono-grey: #5c6370;
+   --hale-mono: #abb2bf;
+   --hale-mono-grey: #5c6370;
 
-   --calm-bg: #011627;
-   --calm-bg-deactive: #041e34;
-   --calm-bg-light: #06386366;
-   --calm-fg: #d6deeb;
+   --hale-bg: #011627;
+   --hale-bg-deactive: #041e34;
+   --hale-bg-light: #06386366;
+   --hale-fg: #d6deeb;
 
-   --calm-magenta: #c792ea;
+   --hale-magenta: #c792ea;
 
-   --calm-border-cyan: #59e1e366;
-   --calm-cyan: #59e1e3;
-   --calm-light-cyan: #59e1e307;
-   --calm-active-cyan: #59e1e350;
+   --hale-border-cyan: #59e1e366;
+   --hale-cyan: #59e1e3;
+   --hale-light-cyan: #59e1e307;
+   --hale-active-cyan: #59e1e350;
 
-   --calm-object-blue: #cdebf7;
-   --calm-blue: #26bbd9;
+   --hale-object-blue: #cdebf7;
+   --hale-blue: #26bbd9;
 
-   --calm-red: #EF5350;
-   --calm-error-red: #f43e5c;
-   --calm-variable-red: #e95678e6;
-   --calm-constant-red: #f09483e6;
+   --hale-red: #EF5350;
+   --hale-error-red: #f43e5c;
+   --hale-variable-red: #e95678e6;
+   --hale-constant-red: #f09483e6;
 
-   --calm-purple: #b877db;
+   --hale-purple: #b877db;
 
-   --calm-orange: #d19a66;
-   --calm-class-orange: #fac29ae6;
+   --hale-orange: #d19a66;
+   --hale-class-orange: #fac29ae6;
 
-   --calm-light-yellow: #ffeb95;
-   --calm-yellow: #addb6766;
+   --hale-light-yellow: #ffeb95;
+   --hale-yellow: #addb6766;
 
-   --calm-light-green: #22da6e;
-   --calm-green: #22da6e;
-   --calm-tag-green: #7fdbca;
-   --calm-string-green: #addb67;
+   --hale-light-green: #22da6e;
+   --hale-green: #22da6e;
+   --hale-tag-green: #7fdbca;
+   --hale-string-green: #addb67;
 
-   --calm-brand: #276567;
-   --calm-cursor-color: #7e57c2;
+   --hale-brand: #276567;
+   --hale-cursor-color: #7e57c2;
    
-   --calm-selection: #072e50;
-   --calm-keyword: #b877dbe6;
-   --calm-function: #25b0bce6;
+   --hale-selection: #072e50;
+   --hale-keyword: #b877dbe6;
+   --hale-function: #25b0bce6;
    
    
 
@@ -147,10 +147,10 @@ Custom colors
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: var(--calm-border-cyan);
-  --jp-border-color1: var(--calm-border-cyan);
-  --jp-border-color2: var(--calm-yellow);
-  --jp-border-color3: var(--calm-border-cyan);
+  --jp-border-color0: var(--hale-border-cyan);
+  --jp-border-color1: var(--hale-border-cyan);
+  --jp-border-color2: var(--hale-yellow);
+  --jp-border-color3: var(--hale-border-cyan);
   --jp-border-radius: 4px;
 
 
@@ -171,7 +171,7 @@ Custom colors
   --jp-ui-font-size2: 1.2em;
   --jp-ui-font-size3: 1.44em;
 
-  --jp-ui-font-family: Meslo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+  --jp-ui-font-family: Menlo, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
   /*
@@ -180,10 +180,10 @@ Custom colors
    */
 
   /* Defaults use Material Design specification */
-  --jp-ui-font-color0: var(--calm-mono);
-  --jp-ui-font-color1: var(--calm-mono);
-  --jp-ui-font-color2: var(--calm-mono);
-  --jp-ui-font-color3: var(--calm-mono);
+  --jp-ui-font-color0: var(--hale-mono);
+  --jp-ui-font-color1: var(--hale-mono);
+  --jp-ui-font-color2: var(--hale-mono);
+  --jp-ui-font-color3: var(--hale-mono);
 
   /*
    * Use these against the brand/accent/warn/error colors.
@@ -229,7 +229,7 @@ Custom colors
 
   --jp-content-link-color: var(--md-blue-300);
 
-  --jp-content-font-family: Meslo, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  --jp-content-font-family: Hack, Meslo, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
 
@@ -242,7 +242,7 @@ Custom colors
   --jp-code-font-size: 14px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 7px; /* 5px for 13px base, codemirror highlighting needs integer px value */
-  --jp-code-font-family-default: Meslo, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  --jp-code-font-family-default: Hack, Meslo, Consolas, 'DejaVu Sans Mono', monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
 
   /* This gives a magnification of about 125% in presentation mode over normal. */
@@ -259,11 +259,11 @@ Custom colors
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: var(--calm-bg);
-  --jp-layout-color1: var(--calm-bg);
-  --jp-layout-color2: var(--calm-bg-light);
-  --jp-layout-color3: var(--calm-bg);
-  --jp-layout-color4: var(--calm-bg);
+  --jp-layout-color0: var(--hale-bg);
+  --jp-layout-color1: var(--hale-bg);
+  --jp-layout-color2: var(--hale-bg-light);
+  --jp-layout-color3: var(--hale-bg);
+  --jp-layout-color4: var(--hale-bg);
 
 
   /* Inverse Layout
@@ -281,7 +281,7 @@ Custom colors
   /* Brand/accent */
 
   --jp-brand-color0: var(--md-blue-700);
-  --jp-brand-color1: var(--calm-brand);
+  --jp-brand-color1: var(--hale-brand);
   --jp-brand-color2: var(--md-blue-300);
   --jp-brand-color3: var(--md-blue-100);
   --jp-brand-color4: var(--md-blue-50);
@@ -315,34 +315,34 @@ Custom colors
 
   /* Cell specific styles */
 
-  --jp-cell-padding: 20px;
+  --jp-cell-padding: 16px;
 
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
 
-  --jp-cell-editor-background: var(--calm-bg-deactive);
-  --jp-cell-editor-border-color: var(--calm-light-cyan);
+  --jp-cell-editor-background: var(--hale-bg-deactive);
+  --jp-cell-editor-border-color: var(--hale-light-cyan);
   --jp-cell-editor-box-shadow: inset 0 0 2px var(--md-blue-300);
-  --jp-cell-editor-active-background: var(--calm-bg);
-  --jp-cell-editor-active-border-color: var(--calm-active-cyan);
+  --jp-cell-editor-active-background: var(--hale-bg);
+  --jp-cell-editor-active-border-color: var(--hale-active-cyan);
 
   --jp-cell-prompt-width: 64px;
-  --jp-cell-prompt-font-family: Meslo, 'Source Code Pro', monospace;
+  --jp-cell-prompt-font-family: Hack, Meslo, 'Source Code Pro', monospace;
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 1;
-  --jp-cell-prompt-not-active-font-color: var(--calm-mono);
+  --jp-cell-prompt-not-active-font-color: var(--hale-mono);
 
 
   --jp-cell-inprompt-font-color: #307fc1;
-  --jp-cell-outprompt-font-color: var(--calm-mono);
+  --jp-cell-outprompt-font-color: var(--hale-mono);
 
   /* Notebook specific styles */
 
-  --jp-notebook-padding: 14px;
-  --jp-notebook-select-background: var(--calm-cyan);
-  --jp-notebook-multiselected-color: var(--calm-cyan);
+  --jp-notebook-padding: 16px;
+  --jp-notebook-select-background: var(--hale-cyan);
+  --jp-notebook-multiselected-color: var(--hale-cyan);
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
@@ -357,8 +357,8 @@ Custom colors
 
   /* Rendermime styles */
 
-  --jp-rendermime-error-background: var(--calm-bg-light);
-  --jp-rendermime-table-row-background: var(--md-grey-900);
+  --jp-rendermime-error-background: var(--hale-bg-light);
+  --jp-rendermime-table-row-background: var(--hale-bg-light);
   --jp-rendermime-table-row-hover-background: rgba(3, 169, 244, 0.2);
 
   /* Dialog specific styles */
@@ -385,45 +385,45 @@ Custom colors
   --jp-input-hover-background: var(--jp-layout-color2);
   --jp-input-background: var(--md-grey-800);
   --jp-input-border-color: var(--jp-border-color1);
-  --jp-input-active-border-color: var(--calm-cyan);
+  --jp-input-active-border-color: var(--hale-cyan);
   --jp-input-active-box-shadow-color: rgba(19, 124, 189, 0.3);
 
   /* General editor styles */
 
-  --jp-editor-selected-background: var(--calm-bg);
-  --jp-editor-selected-focused-background: var(--calm-selection);
-  --jp-editor-cursor-color: var(--calm-cursor-color);
+  --jp-editor-selected-background: var(--hale-bg);
+  --jp-editor-selected-focused-background: var(--hale-selection);
+  --jp-editor-cursor-color: var(--hale-cursor-color);
 
   /* Code mirror specific styles */
 
-  --jp-mirror-editor-keyword-color: var(--calm-cursor-color);
+  --jp-mirror-editor-keyword-color: var(--hale-cursor-color);
   --jp-mirror-editor-atom-color: var(--md-blue-300);
   --jp-mirror-editor-number-color: white;
-  --jp-mirror-editor-def-color: var(--calm-blue);
-  --jp-mirror-editor-variable-color: var(--calm-object-blue);
-  --jp-mirror-editor-variable-2-color: var(--calm-mono);
+  --jp-mirror-editor-def-color: var(--hale-blue);
+  --jp-mirror-editor-variable-color: var(--hale-object-blue);
+  --jp-mirror-editor-variable-2-color: var(--hale-mono);
   --jp-mirror-editor-variable-3-color: var(--md-grey-600);
-  --jp-mirror-editor-punctuation-color: var(--calm-light-yellow);
-  --jp-mirror-editor-property-color: var(--calm-light-yellow);
-  --jp-mirror-editor-operator-color: var(--calm-orange);
+  --jp-mirror-editor-punctuation-color: var(--hale-light-yellow);
+  --jp-mirror-editor-property-color: var(--hale-light-yellow);
+  --jp-mirror-editor-operator-color: var(--hale-orange);
   --jp-mirror-editor-comment-color: var(--md-grey-500);
-  --jp-mirror-editor-string-color: var(--calm-string-green);
-  --jp-mirror-editor-string-2-color: var(--calm-string-green);
+  --jp-mirror-editor-string-color: var(--hale-string-green);
+  --jp-mirror-editor-string-2-color: var(--hale-string-green);
   --jp-mirror-editor-meta-color: #aa22ff;
   --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: var(--calm-purple);
-  --jp-mirror-editor-bracket-color: var(--calm-red);
-  --jp-mirror-editor-tag-color: var(--calm-tag-green);
-  --jp-mirror-editor-attribute-color: var(--calm-green);
-  --jp-mirror-editor-header-color: var(--calm-light-yellow);
+  --jp-mirror-editor-builtin-color: var(--hale-purple);
+  --jp-mirror-editor-bracket-color: var(--hale-red);
+  --jp-mirror-editor-tag-color: var(--hale-tag-green);
+  --jp-mirror-editor-attribute-color: var(--hale-green);
+  --jp-mirror-editor-header-color: var(--hale-light-yellow);
   --jp-mirror-editor-quote-color: var(--md-green-300);
-  --jp-mirror-editor-link-color: var(--calm-cyan);
-  --jp-mirror-editor-error-color: var(--calm-red);
+  --jp-mirror-editor-link-color: var(--hale-cyan);
+  --jp-mirror-editor-error-color: var(--hale-red);
   --jp-mirror-editor-hr-color: #ffffff;
 
   /* Vega extension styles */
 
-  --jp-vega-background: var(--calm-bg);
+  --jp-vega-background: var(--hale-bg);
 
   /* Sidebar-related styles */
 
@@ -439,7 +439,7 @@ Custom colors
   --jp-search-unselected-match-background-color: var(--jp-inverse-layout-color0);
   --jp-search-unselected-match-color: var(--jp-ui-inverse-font-color0);
 
-  --jp-scrollbar-background-color: var(--calm-bg);
+  --jp-scrollbar-background-color: var(--hale-bg);
   --jp-scrollbar-thumb-color: 12, 30, 52; /* need to specify thumb color as an RGB triplet */
 
   --jp-scrollbar-endpad: 3px; /* the minimum gap between the thumb and the ends of a scrollbar */
