@@ -22,7 +22,10 @@ Hale is a theme extension for JupyterLab 3. If you are using Jupyter Lab 2, you 
 
 ## Version
 
-* `v0.1.1` is compatible with JupyterLab 3. 
+* `v0.1.2`
+    * `Hack` font-type added.
+* `v0.1.1`
+    * Initial version. This version is compatible with JupyterLab 3. 
 
 ## Requirements
 
