@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-theme-hale",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hale Theme for Jupyter Lab 3.x. Inspired by Night Owl.",
   "contributors": [
     "Atilla Guzel (https://atillaguzel.github.io/)"
