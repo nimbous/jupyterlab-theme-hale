@@ -22,6 +22,8 @@ Hale is a theme extension for JupyterLab 3. If you are using Jupyter Lab 2, you 
 
 ## Version
 
+* `v0.1.3`
+    * Set `Hack` font-type as default, remove `Menlo` font-type for a more consistent look.
 * `v0.1.2`
     * `Hack` font-type added.
 * `v0.1.1`
